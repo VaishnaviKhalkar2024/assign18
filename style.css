@@ -1,6 +1,6 @@
 .table-content{
-    width: 98%;
-    background-color:#ffb3ec;
+    width: 45%;
+    background-color: #e8d2e1;
     height: 220px;
     padding: 5px 10px;
     text-align: start;
@@ -23,6 +23,7 @@
     margin: auto;
     margin-left:5px;
     width: 280px;
+    border: 2px solid palevioletred;
     
    }
    .img-header:hover{
@@ -35,6 +36,7 @@
     border: 2px solid rgb(155, 155, 133); 
     width: 250px;
     margin-left: 10px;
+    margin-top: 50px;
 }
 .header{
     display: flex;
@@ -49,8 +51,12 @@ h1{
     font-size: 25px;
     color:#cc008b;
 }
+h1:hover
+{
+    text-decoration-line: underline;
+}
 .flower-type{
-    background-color:#ffccef;
+    background-color:#e8d2e1;
     padding: 5px 5px 5px 20px;
     text-align: start;
     border-radius: 10px;
@@ -61,5 +67,39 @@ h1{
     padding: 10px;
     font-size: 100px;
     margin-left: 100px;
-    color: #cc008b;
+    color: #76215b;
+}
+.btn-container{
+    padding: 10px;
+    margin-left: 350px;
+    display: inline-block;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(112, 108, 108);
+    font-size: medium;
+    margin: 5px 10px;
+    color:black;
+    background-color: white;
+    box-shadow: 0 0 2px 2px rgb(246, 147, 164);
+    
+}
+.btn:hover{
+    text-decoration-line: underline;
+    border-radius: 20px;
+}
+
+#front
+{
+    background-color:hsl(317, 40%, 69%) ;
+    border: 2px solid rgb(250, 237, 237);
+    box-shadow: 0 0 5px 5px hsl(317, 40%, 69%);
+}
+.footer{
+    color:black;
+    background-color:hsl(317, 40%, 69%);
+    padding: 10px;
+    box-shadow: 0 0 5px 5px hsl(317, 40%, 69%) ;
+    border: 2px solid rgb(250, 237, 237);
 }
